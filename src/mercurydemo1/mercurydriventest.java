@@ -38,6 +38,7 @@ public class mercurydriventest {
       Thread.sleep(5000);
       driver.findElement(By.partialLinkText("SIGN-OFF")).click();
       System.out.println("User is able to login into Mercurytours succesfully");
+      System.out.println("payal raghatate");
   }
   @BeforeMethod
   public void getAllCookies() {
